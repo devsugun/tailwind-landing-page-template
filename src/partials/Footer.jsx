@@ -27,28 +27,28 @@ function Footer() {
               </Link>
             </div>
             <div className="text-sm text-gray-600">
-              <Link to="#" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Terms</Link> · <Link to="#" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Privacy Policy</Link>
+              <a href="https://en.wikipedia.org/wiki/SpaceX#History" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">History</a> · <a href="https://en.wikipedia.org/wiki/SpaceX#Facilities" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Facilities</a>
             </div>
           </div>
 
           {/* 2nd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Products</h6>
+            <h6 className="text-gray-800 font-medium mb-2">Hardwares</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Web Studio</Link>
+                <a href="https://en.wikipedia.org/wiki/SpaceX#Starship" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Starship</a>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">DynamicBox Flex</Link>
+                <a href="https://en.wikipedia.org/wiki/SpaceX#Autonomous_spaceport_drone_ships" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Autonomous spaceport drone ships</a>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Programming Forms</Link>
+                <a href="https://en.wikipedia.org/wiki/SpaceX#Dragon_spacecraft" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Dragon spacecraft</a>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Integrations</Link>
+                <a href="https://en.wikipedia.org/wiki/SpaceX#Rocket_engines" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Rocket engines</a>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Command-line</Link>
+                <a href="https://en.wikipedia.org/wiki/SpaceX#Launch_vehicles" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Launch vehicles</a>
               </li>                            
             </ul>
           </div>
@@ -152,7 +152,7 @@ function Footer() {
           </ul>
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4">Made by <a className="text-blue-600 hover:underline" href="https://cruip.com/">Cruip</a>. All rights reserved.</div>
+          <div className="text-sm text-gray-600 mr-4">Made by <a className="text-blue-600 hover:underline" href="https://cruip.com/">spaceX</a>. All rights reserved.</div>
 
         </div>
 
